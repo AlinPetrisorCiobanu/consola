@@ -29,13 +29,45 @@
     font-weight: 900;
 }
 .configuracionJoysticks{
-    height: 10vh;
+    height: 11vh;
+}
+.joysticks{
+    width: 85px;
+    height: 85px;
+    background-color: black;
+    border-radius: 50%;
+    border: 5px solid rgb(64, 70, 76);
 }
 .configuracionBotones4{
     height: 5vh;
 }
+.ajusteBotones4{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+.ajusteBotones4 i{
+    padding-top: 10px;
+}
+
 .alturaBotonesDeAbajo{
     height: 5vh;
+}
+.botonCuadrado{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circuloInterior{
+    width: 22px;
+    height: 22px;
+    background-color: rgba(97, 95, 95, 0.612);
+    border-radius: 50%;
 }
 .divEspaciador{
     height: 1.5vh;
