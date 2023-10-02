@@ -23,10 +23,16 @@
     border-radius: 10px 100px 100px 10px;
     border: 2px solid black;
 }
-.alturaBotonesVolumen{
+.configuracionBotonesVolumen{
     height: 7vh;
-    font-size: 2.5em;
+    font-size: 2.6em;
     font-weight: 900;
+}
+.configuracionJoysticks{
+    height: 7vh;
+}
+.configuracionBotones4{
+    height: 5vh;
 }
 
 
