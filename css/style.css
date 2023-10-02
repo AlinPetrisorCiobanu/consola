@@ -29,10 +29,16 @@
     font-weight: 900;
 }
 .configuracionJoysticks{
-    height: 7vh;
+    height: 10vh;
 }
 .configuracionBotones4{
     height: 5vh;
+}
+.alturaBotonesDeAbajo{
+    height: 5vh;
+}
+.divEspaciador{
+    height: 1.5vh;
 }
 
 
