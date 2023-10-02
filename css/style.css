@@ -12,8 +12,86 @@
     border-radius: 100px 10px 10px 100px;
     border: 2px solid black;
 }
+.joystickIzquierda{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
 .mandoDerecho{
     background-color: rgb(160, 184, 204);
     border-radius: 10px 100px 100px 10px;
     border: 2px solid black;
 }
+.alturaBotonesVolumen{
+    height: 7vh;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*para futuro responsive */
+/* @media(max-width:430px){
+    .alturaDivResponsive{
+        height: 20vh;
+    }
+    .disenioConsola{
+        border: 8px;
+        width: 53vw;
+        height: 30vh !important;
+    }
+    .mandoIzquierdo{
+        width: 15vw;
+        height: 30vh;
+    }
+    .mandoDerecho{
+        width: 15vw;
+        height: 30vh;
+    }
+} */
