@@ -1,0 +1,19 @@
+.alturaDiv{
+    height: 100vh;
+}
+.disenioConsola{
+    height: 55vh;
+    border-radius: 20px 20px 10px 10px;
+    border: 10px solid rgb(58, 60, 63);
+    background-color: rgb(31, 43, 43);
+}
+.mandoIzquierdo{
+    background-color: rgb(160, 184, 204);
+    border-radius: 100px 10px 10px 100px;
+    border: 2px solid black;
+}
+.mandoDerecho{
+    background-color: rgb(160, 184, 204);
+    border-radius: 10px 100px 100px 10px;
+    border: 2px solid black;
+}
