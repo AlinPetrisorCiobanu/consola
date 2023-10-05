@@ -168,15 +168,21 @@
             height: 3vh;
         }
         .joysticks{
-            width: 10px;
-            height: 20px;
+            width: 20px;
+            height: 22px;
             background-color: black;
             border-radius: 50%;
             border: 5px solid rgb(64, 70, 76);
+            margin-top: 2px;
         }
         .configuracionBotones4{
             height: 3vh;
             margin-top: 1px;
+        }
+        .tamanioPequenio{
+            margin-top: 1vh;
+            margin-left: 1vw;
+            margin-bottom: -2vh;
         }
         .ajusteBotones4{
             width: 15px;
@@ -187,6 +193,16 @@
         }
         .marginFlechas{
             margin-left: 3.3vw;
+        }
+        .posicionBotonY{
+            position: absolute;
+            top: 0px;
+            left: 1vw;
+        }
+        .posicionBotonA{
+            position: absolute;
+            top: 1.2px;
+            left: 6.5vw;
         }
         .ajusteBotones4 i{
             padding-top: 0.1vh;
@@ -207,7 +223,8 @@
             height: 10px;
             background-color: rgb(0, 0, 0);
             border-radius: 50%;
-           
+            margin-top: 1.5vh;
+            margin-left: -1vw;
         }
         .circuloInterior{
             display: none;
@@ -220,7 +237,7 @@
         }
         .botonL1{
             top: -1vh;
-            left: 0.2vw;
+            left: 5vw;
             width: 10vw;
             height: 10vh;
             background-color: rgba(43, 43, 43, 0.737);
@@ -235,8 +252,8 @@
             cursor: pointer;
         }
         .botonStart{
-            top: -0.7vh;
-            left: 17vw;
+            top: -1.2vh;
+            left: 25vw;
             width: 2.5vw;
             height: 2vh;
             background-color: rgb(122, 121, 121);
@@ -244,13 +261,14 @@
             border-width: 2px;
             overflow: hidden;
             z-index: 1;
+            border-radius: 10px;
         }
         .botonStart:hover{
             cursor: pointer;
         }
         .botonR1{
             top: -1vh;
-            left: 73vw;
+            left: 85vw;
             width: 10vw;
             height: 10vh;
             background-color: rgba(43, 43, 43, 0.737);
