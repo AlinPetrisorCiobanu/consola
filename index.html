@@ -20,13 +20,13 @@
                         <div onclick="R1()" class="botonR1 position-absolute"></div>     
                             <div class="col-2 alturaConsola mandoIzquierdo">
                                 <div class="row configuracionBotonesVolumen justify-content-end">
-                                    <div class="col-6 col-lg-4 text-dark text-center align-self-center">-</div>
+                                    <div class="col-6 col-lg-4 text-dark text-center align-self-center" onclick="minus()">-</div>
                                 </div>
                                 <div class="row divEspaciador"><div class="col-12"></div></div>
                                 <div class="row configuracionJoysticks justify-content-center">
                                     <div class="col-1 col-lg-3"></div>
                                     <div class="col-9 col-lg-8">
-                                        <button class="joysticks"></button>
+                                        <button class="joysticks" onclick="joystickIzquierda()"></button>
                                     </div>
                                     <div class="col-1"></div>
                                 </div>
@@ -36,23 +36,23 @@
                                         <div class="row configuracionBotones4">
                                             <div class="col-1 col-lg-4 desapareceDiv"></div>
                                             <div class="col-12 col-lg-4 marginFlechas">
-                                                <div class="bg-dark ajusteBotones4 text-center"><i class="fa-solid fa-arrow-up fa-fade" style="color: #acadaf;"></i></div>
+                                                <div class="bg-dark ajusteBotones4 text-center" onclick="arriba()"><i class="fa-solid fa-arrow-up fa-fade" style="color: #acadaf;"></i></div>
                                             </div>
                                             <div class="col-1 col-lg-4 desapareceDiv"></div>
                                         </div>
                                         <div class="row configuracionBotones4">
                                             <div class="col-4 col-lg-4">
-                                                <div class="bg-dark ajusteBotones4 text-center flechaIzquierda"><i class="fa-solid fa-arrow-left fa-fade" style="color: #acadaf;"></i></div>
+                                                <div class="bg-dark ajusteBotones4 text-center flechaIzquierda" onclick="izquierda()"><i class="fa-solid fa-arrow-left fa-fade" style="color: #acadaf;"></i></div>
                                             </div>
                                             <div class="col-1 col-lg-4 desapareceDiv"></div>
                                             <div class="col-6 col-lg-4">
-                                                <div class="bg-dark ajusteBotones4 text-center flechaDerecha"><i class="fa-solid fa-arrow-right fa-fade" style="color: #acadaf;"></i></div>
+                                                <div class="bg-dark ajusteBotones4 text-center flechaDerecha" onclick="derecha()"><i class="fa-solid fa-arrow-right fa-fade" style="color: #acadaf;"></i></div>
                                             </div>
                                         </div>
                                         <div class="row configuracionBotones4">
                                             <div class="col-2 col-lg-4 desapareceDiv"></div>
                                             <div class="col-2 col-lg-4 marginFlechas">
-                                                <div class="bg-dark ajusteBotones4 text-center"><i class="fa-solid fa-arrow-down fa-fade" style="color: #acadaf;"></i></div>
+                                                <div class="bg-dark ajusteBotones4 text-center" onclick="abajo()"><i class="fa-solid fa-arrow-down fa-fade" style="color: #acadaf;"></i></div>
                                             </div>
                                             <div class="col-2 col-lg-4 desapareceDiv"></div>
                                         </div>
@@ -63,7 +63,7 @@
                                     <div class="col-4 desapareceDiv"></div>
                                     <div class="col-4 desapareceDiv"></div>
                                     <div class="col-4">
-                                        <div class="botonCuadrado">
+                                        <div class="botonCuadrado" onclick="botonDerecha()">
                                             <div class="circuloInterior"></div>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@
                             <div class="col-2 alturaConsola mandoDerecho">
                                 <div class="row">
                                     <div class="row configuracionBotonesVolumen justify-content-start">
-                                        <div class="col-4 text-dark text-center align-self-center">+</div>                                  
+                                        <div class="col-4 text-dark text-center align-self-center" onclick="mas()">+</div>                                  
                                     </div>
                                     <div class="row divEspaciador"><div class="col-12"></div></div>
                                     <div class="row mt-2 mb-3 d-flex justify-content-center">
@@ -83,23 +83,23 @@
                                             <div class="row configuracionBotones4">
                                                 <div class="col-1 col-lg-4 desapareceDiv"></div>
                                                 <div class="col-4 col-lg-4">
-                                                    <div class="bg-dark ajusteBotones4 text-center marginBotonesDerecha"><i class="fa-solid fa-fade" style="color: #acadaf;">X</i></div>
+                                                    <div class="bg-dark ajusteBotones4 text-center marginBotonesDerecha" onclick="botonX()"><i class="fa-solid fa-fade" style="color: #acadaf;">X</i></div>
                                                 </div>
                                                 <div class="col-1 col-lg-4 desapareceDiv"></div>
                                             </div>
                                             <div class="row configuracionBotones4 position-relative">
                                                 <div class="col-4 col-lg-4">
-                                                    <div class="bg-dark ajusteBotones4 text-center posicionBotonY"><i class="fa-solid fa-fade" style="color: #acadaf;">Y</i></div>
+                                                    <div class="bg-dark ajusteBotones4 text-center posicionBotonY" onclick="botonY()"><i class="fa-solid fa-fade" style="color: #acadaf;">Y</i></div>
                                                 </div>
                                                 <div class="col-0 col-lg-4 desapareceDiv"></div>
                                                 <div class="col-4 col-lg-4 ">
-                                                    <div class="bg-dark ajusteBotones4 text-center posicionBotonA"><i class="fa-solid fa-fade" style="color: #acadaf;">A</i></div>
+                                                    <div class="bg-dark ajusteBotones4 text-center posicionBotonA" onclick="botonA()"><i class="fa-solid fa-fade" style="color: #acadaf;">A</i></div>
                                                 </div>
                                             </div>
                                             <div class="row configuracionBotones4">
                                                 <div class="col-2 col-lg-4 desapareceDiv"></div>
                                                 <div class="col-2 col-lg-4">
-                                                    <div class="bg-dark ajusteBotones4 text-center marginBotonesDerecha"><i class="fa-solid fa-fade" style="color: #acadaf;">B</i></div>
+                                                    <div class="bg-dark ajusteBotones4 text-center marginBotonesDerecha" onclick="botonB()"><i class="fa-solid fa-fade" style="color: #acadaf;">B</i></div>
                                                 </div>
                                                 <div class="col-2 col-lg-4 desapareceDiv"></div>
                                             </div>
@@ -109,14 +109,14 @@
                                     <div class="row configuracionJoysticks justify-content-center">
                                         <div class="col-3 desapareceDiv"></div>
                                         <div class="col-8">
-                                            <button class="joysticks"></button>
+                                            <button class="joysticks" onclick="joystickDerecha()"></button>
                                         </div>
                                         <div class="col-1 desapareceDiv"></div>
                                     </div>
                                     <div class="row divEspaciador"><div class="col-12"></div></div>    
                                     <div class="row alturaBotonesDeAbajo">
                                         <div class="col-4">
-                                            <div class="botonCirculo">
+                                            <div class="botonCirculo" onclick="home()">
                                                 <div class="casaDentroDelCuadrado">
                                                     <i class="fa-solid fa-house fa-fade"></i>
                                                 </div>
