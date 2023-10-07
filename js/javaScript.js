@@ -1,17 +1,41 @@
 
     let onOff;
     let botones = false;
+    let pantalla;
+    let contenido
     const start=()=>{
         
         if(onOff){
             document.getElementById('gameVisualy').style.display='none'
-                onOff=false;
-                botones=false;
+            document.getElementById('gameVisualy').style.display='block'
+            document.querySelector(".myclass").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass1").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass2").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass3").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass4").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass5").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass6").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass7").style.color='rgb(67, 66, 66)';
+            document.querySelector(".myclass8").style.color='rgb(67, 66, 66)';
+            
+             onOff=false;
+             botones=false;
         }else if(!onOff){
             document.getElementById('gameVisualy').style.display='block'
+            document.querySelector(".myclass").style.color='white';
+            document.querySelector(".myclass1").style.color='white';
+            document.querySelector(".myclass2").style.color='white';
+            document.querySelector(".myclass3").style.color='white';
+            document.querySelector(".myclass4").style.color='white';
+            document.querySelector(".myclass5").style.color='white';
+            document.querySelector(".myclass6").style.color='white';
+            document.querySelector(".myclass7").style.color='white';
+            document.querySelector(".myclass8").style.color='white';
+                    
                 onOff=true;
                 botones=true;
         }
+        
     
     }
     const L1=()=>{
