@@ -1,6 +1,12 @@
+    body{
+        background-image: url(../img-video/background.jpg);
+        background-repeat: repeat;
+        background-size:cover;
+    }
     .alturaDiv{
         height: 100vh;
     }
+
     @media(max-width:531px){
         .disenioConsola{
         height: 30vh;
@@ -604,12 +610,13 @@
     cursor: pointer;
     color: rgb(67, 66, 66) ;
 }
-#display1{
-    
+#display{
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
 }
-#video1{
-    width: 100%;
-    height: 100%;
-}
+
+
+
 
    
