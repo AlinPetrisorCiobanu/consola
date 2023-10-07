@@ -529,7 +529,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    display: none;
+    display: block;
 }
 #encendido{
     width: 100%;
@@ -538,6 +538,8 @@
     justify-content: center;
     align-items: baseline;
     position: absolute;
+    opacity: 0;
+    transition: all 1s;
 }
 .myclass{
     color: rgb(67, 66, 66) ;
@@ -565,6 +567,49 @@
 }
 .myclass8{
     color: rgb(67, 66, 66) ;
+}
+.myclass:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass1:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass2:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass3:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass4:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass5:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass6:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass7:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+.myclass8:hover{
+    cursor: pointer;
+    color: rgb(67, 66, 66) ;
+}
+#display1{
+    
+}
+#video1{
+    width: 100%;
+    height: 100%;
 }
 
    

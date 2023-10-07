@@ -2,7 +2,9 @@
     let onOff;
     let botones = false;
     let pantalla;
-    let contenido
+    let contenido;
+    const video = document.getElementById('display')
+    let controlador=0;
     const start=()=>{
         
         if(onOff){
@@ -17,6 +19,7 @@
             document.querySelector(".myclass6").style.color='rgb(67, 66, 66)';
             document.querySelector(".myclass7").style.color='rgb(67, 66, 66)';
             document.querySelector(".myclass8").style.color='rgb(67, 66, 66)';
+            document.getElementById('encendido').style.opacity='0'
             
              onOff=false;
              botones=false;
@@ -31,7 +34,7 @@
             document.querySelector(".myclass6").style.color='white';
             document.querySelector(".myclass7").style.color='white';
             document.querySelector(".myclass8").style.color='white';
-                    
+            document.getElementById('encendido').style.opacity='100'        
                 onOff=true;
                 botones=true;
         }
@@ -60,7 +63,7 @@
     }
     const arriba=()=>{
         if(botones==true){
-            console.log("arriba");
+                
             }
     }
     const izquierda=()=>{
@@ -75,9 +78,12 @@
     }
     const abajo=()=>{
         if(botones==true){
-            console.log("abajo");
+           
             }
     }
+
+
+
     const botonDerecha=()=>{
         if(botones==true){
             console.log("boton cuadrado Derecha");
@@ -88,24 +94,29 @@
             console.log("mas");
             }
     }
+    
     const botonX=()=>{
         if(botones==true){
-            console.log("X");
+            document.getElementById('encendido').style.opacity='0'
+                video=video.src="img-video/pikach.mp4"              
             }
     }
     const botonY=()=>{
         if(botones==true){
-            console.log("Y");
+            document.getElementById('encendido').style.opacity='0'
+            video=video.src="img-video/mario.mp4"              
             }
     }
     const botonA=()=>{
         if(botones==true){
-            console.log("A");
+            document.getElementById('encendido').style.opacity='0'
+            video=video.src="img-video/zelda.mp4"              
             }
     }
     const botonB=()=>{
         if(botones==true){
-            console.log("B");
+            document.getElementById('encendido').style.opacity='0'
+            video=video.src="img-video/pokemon.mp4"
             }
     }
     const joystickDerecha=()=>{
@@ -115,6 +126,8 @@
     }
     const home=()=>{
         if(botones==true){
-            console.log("Home");
+            document.getElementById('encendido').style.opacity='100'
+            video=video.src=""
+
             }
     }
