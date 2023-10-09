@@ -11,5 +11,5 @@ Hola, he realizado la programación de una consola en este caso una Nintendo Swi
 
     la consola: 
         
-    ![image text](https://github.com/AlinPetrisorCiobanu/consola/blob/master/img-video/consola.png)
+    ![image text](img-video/consola.png)
 
