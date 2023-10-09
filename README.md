@@ -5,9 +5,11 @@ Hola, he realizado la programación de una consola en este caso una Nintendo Swi
 
     fallos reconocidos : > las 4 imagenes que se activan con los botones (flechas) no son responsive.
 
-                         >La consola tiene pequeños detalles en responsive que no quedan del todo bien, y el boton cuadrado del mando izquierdo deberia quedar todo el rato pegado al borde izquierdo, pero en responsive se va a la derecha.
+                         >La consola tiene pequeños detalles en responsive que no quedan del todo bien,
+                         y el boton cuadrado del mando izquierdo deberia quedar todo el rato pegado al
+                         borde izquierdo, pero en responsive se va a la derecha.
 
     la consola: 
         
-
+    ![image text](https://github.com/AlinPetrisorCiobanu/consola/blob/master/img-video/consola.png)
 
