@@ -11,5 +11,5 @@ Hola, he realizado la programación de una consola en este caso una Nintendo Swi
 
     la consola: 
         
-    ![consola](img-video/consola.png)
+   <img src="img-video/consola.png" alt="aqui deberia aparecer la consola">
 
